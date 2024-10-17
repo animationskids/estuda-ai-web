@@ -8,8 +8,6 @@ class Navbar {
     init() {
         this.navItems.forEach((nav) => {
             nav.classList.remove("nav-item-active");
-            console.log("pathname", this.pathname);
-            console.log("atributos", nav.getAttribute("data-page"));
             if (nav.getAttribute("data-page") === this.pathname) {
                 nav.classList.add("nav-item-area-active");
             }

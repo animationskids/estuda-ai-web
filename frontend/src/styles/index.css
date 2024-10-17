@@ -1,5 +1,5 @@
 :root {
-  --color-background: #030303;
+  --color-background: #181818;
   --color-primary: #01feb1;
   --color-secondary: #666666;
   --color-tertiary: #070707;
@@ -66,7 +66,7 @@ body {
   display: flex;
   gap: 8px;
   align-items: center;
-  color: white;
+  color: rgb(0, 0, 0);
   background-color: var(--color-primary);
   border-radius: 999px;
   padding: 12px;
