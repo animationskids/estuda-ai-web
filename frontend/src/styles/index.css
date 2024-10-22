@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 :root {
-  --color-background: #0f0f0f;
+  --color-background: #1d1d1d;
   --color-primary: #01feb1;
   --color-secondary: #666666;
   --color-tertiary: #070707;
@@ -10,14 +12,17 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Inter", sans-serif;
 }
 
 body {
   min-width: 100%;
+  max-height: 100vh;
   width: 100%;
   height: 100vh;
   background-color: var(--color-background);
   position: relative;
+  overflow: hidden;
 }
 
 .toast {

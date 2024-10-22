@@ -12,7 +12,7 @@
   </head>
   <body>
     <main class="container flex">
-      <section class="sidebar w-[320px] flex flex-col gap-10">
+      <section class="sidebar w-[320px] hidden flex-col gap-10 sm:flex">
         <div class="flex gap-2">
           <i data-lucide="book-copy" class="logo"></i>
           <span class="font-bold text-white text-2xl">Estuda.Ai</span>
@@ -57,10 +57,8 @@
           >
             <h1 class="text-white text-3xl font-bold">Estude com a gente!</h1>
 
-            <div class="flex gap-6">
-              <div
-                class="w-[320px] h-[180px] bg-[#030303] border border-[#080808] rounded-3xl p-6 flex flex-col justify-between"
-              >
+            <div class="flex grid grid-cols-1 text-white gap-6 lg:grid-cols-2">
+              <div class="w-[320px] h-[180px] bg-[#030303] border border-[#080808] rounded-3xl p-6 flex flex-col justify-between">
                 <header class="flex">
                   <h2 class="text-white text-2xl font-bold">
                     Pergunte qualquer coisa sobre a ETEC
@@ -70,13 +68,11 @@
 
                 <span class="text-[#666666]"
                   >Learn expert negotiation tips to close deals
-                  effectively.</span
-                >
+                  effectively.</span>
               </div>
 
               <div
-                class="w-[320px] h-[180px] bg-[#030303] border border-[#080808] rounded-3xl p-6 flex flex-col justify-between"
-              >
+                class="w-[320px] h-[180px] bg-[#030303] border border-[#080808] rounded-3xl p-6 flex flex-col justify-between">
                 <header class="flex">
                   <h2 class="text-white text-2xl font-bold">
                     Pergunte qualquer coisa sobre a ETEC
